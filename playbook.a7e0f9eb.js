@@ -10315,6 +10315,6 @@
         .then((t) => console.log("Success!", t))
         .catch((t) => console.error("Error!", t.message));
   }),
-    console.log("Designed and Developed by Abhishek Jha.");
+    console.log("Designed and Developed by Kalyani Mali");
 })();
 //# sourceMappingURL=playbook.a7e0f9eb.js.map
