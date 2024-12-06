@@ -10309,7 +10309,7 @@
   Jl.addEventListener("submit", (t) => {
     t.preventDefault(),
       fetch(
-        "https://script.google.com/macros/s/AKfycbyz3mXuTC1SSl5t68_I7obpgg1AKIPc4rPE_icB5JrI8KaIaG-f/exec",
+        "https://script.google.com/macros/s/AKfycbzE7Rx8DVF_c26eXn5UNvFD1dGMH4iv5-1hx7vIa0zEzZlfv7K2HtZpyoavnFsm0s-4/exec",
         { method: "POST", body: new FormData(Jl) }
       )
         .then((t) => console.log("Success!", t))
