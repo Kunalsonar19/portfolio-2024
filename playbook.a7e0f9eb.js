@@ -10309,12 +10309,12 @@
   Jl.addEventListener("submit", (t) => {
     t.preventDefault(),
       fetch(
-        "https://script.google.com/macros/s/AKfycbzE7Rx8DVF_c26eXn5UNvFD1dGMH4iv5-1hx7vIa0zEzZlfv7K2HtZpyoavnFsm0s-4/exec",
+        "https://script.google.com/macros/s/AKfycbwFeTt8meNsp5GXPXS3RT1248NugmWOLd4TZAsmlPcRqk6IWCzbQCVEvyCHlhWgPq_0/exec",
         { method: "POST", body: new FormData(Jl) }
       )
         .then((t) => console.log("Success!", t))
         .catch((t) => console.error("Error!", t.message));
   }),
-    console.log("Designed and Developed by Kalyani Mali");
+    console.log("Designed and Developed by Kalyani Mali.");
 })();
 //# sourceMappingURL=playbook.a7e0f9eb.js.map
